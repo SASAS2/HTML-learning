@@ -11,7 +11,7 @@
                 "${file}"
             ],
             "windows": {
-                //这里写你电脑的Chrome浏览器的安装位置
+                //这里写你电脑的edge浏览器的安装位置
                 "command": "E:/Edge/msedge.exe"
             },
             "group": {
