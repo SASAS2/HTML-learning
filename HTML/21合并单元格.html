@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格合并</title>
+    <!-- 保留最左最上单元格，添加属性取值数字，数字表示需要合并的单元格数量 -->
+     <!-- --跨行合并，保留最上，添加rowspan   -->
+      <!-- 跨列合并，保留最左，添加colspan -->
+</head>
+<body>
+    <table border="1"> 
+        <tr>
+            <th>aa</th>
+            <th>bb</th>
+            <th>cc</th>
+        
+        </tr>
+        <tr>
+            <td>aa</td>
+            <td rowspan="3">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>bb</td>
+            <!-- <td>2</td> -->
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>cc</td>
+            <!-- <td>2</td> -->
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>总结</td>
+            <td colspan="2">学代码学的</td>
+            <!-- <td>学代码学的</td> -->
+        </tr>
+    </table>
+</body>
+</html>

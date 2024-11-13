@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+    <!-- 作用：收集用户信息 -->
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th>type属性值</th>
+            <th>说明</th>
+        </tr>
+        <tr>
+            <th>text</th>
+            <th>文本框，输入单行文本</th>
+        </tr>
+        <tr>
+            <th>password</th>
+            <th>密码框</th>
+        </tr>
+        <tr>
+            <th>radio</th>
+            <th>单选框</th>
+        </tr>
+        <tr>
+            <th>checkbox</th>
+            <th>多选框</th>
+        </tr>
+        <tr>
+            <th>file</th>
+            <th>上传文件</th>
+        </tr>
+    </table>
+
+    
+</body>
+<body>
+    <!-- placeholder提示用户输入什么 -->
+     <!-- 输入什么就是什么  -->
+     文本框： <input type="text" placeholder="输入用户名">
+     <br><br>
+     <!-- 输入什么都是点 -->
+     密码框: <input type="password" placeholder="输入密码">
+     <br><br>
+     单选框: <input type="radio">
+     <br><br>
+     多选框: <input type="checkbox">
+     <br><br>
+     上传文件: <input type="file">
+     <br><br>
+     <h3>请选择你的性别：</h3>
+     <br>
+     <!-- 单选框加内部属性name可合并为只能选一种 -->
+      <!-- 加checked会添加默认选项值为改选项 -->
+      <input type="radio" name="gender">男性
+      <input type="radio" name="gender">女性
+      <input type="radio" name="gender">武装直升机
+      <input type="radio" name="gender">沃尔玛购物袋
+      <input type="radio" name="gender" checked>Transgender Girl <img src="./img/Transgender_Pride_flag.svg.png" width="25">
+      
+</body>
+</html>
