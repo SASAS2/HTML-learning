@@ -48,12 +48,6 @@ colspan属性设定单元宽度(最左优先)
 #### 示例
 ```html
 <table border="1"> 
-    <thead>
-        <tr>
-            <th>C1</th>
-            <th>C2</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
             <td rowspan="2">C1R1</td>
