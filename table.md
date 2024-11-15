@@ -33,3 +33,27 @@
 ```    
 border:边框厚度
 
+# 表格合并
+
+rowspan属性设定单元高度(最上优先) \
+colspan属性设定单元宽度(最左优先)
+```html
+<table border="1"> 
+    <thead>
+        <tr>
+            <th>C1</th>
+            <th>C2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">C1R1</td>
+            <td>C1R2</td>
+        </tr>
+        <tr>
+            <td>C2R2</td>
+        </tr>
+    </tbody>
+</table>
+```
+
