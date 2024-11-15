@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签选择器</title>
+    <style>
+        /* 特点：选中同名标签设置相同的样式， */
+        /* 无法差异化同名标签的样式 */
+        p{
+            color:pink;
+        }
+        /* 定义 */
+        .white{
+            color: rgb(199, 199, 199);
+        }
+        .blue{
+            color: rgb(185, 185, 255);
+        }
+        .size{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p class="blue">这是p标签加了class</p>
+    <p><em>这也是p</em></p>
+    <p class="white"><ins>这还是p加了class</ins></p>
+    <div class="blue size">这是div标签加class的</div>
+<!-- 一个类选择器可以给多个标签使用  -->
+ <!-- 一个标签可以使用多个类名 class类名用空格隔开-->
+    
+</body>
+</html>
