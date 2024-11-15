@@ -376,49 +376,76 @@ colspan属性设定单元宽度(最左优先)
 
    - 将 `input` 标签嵌套在 `label` 标签内，简化了HTML结构，同时保持了与单选按钮的关联。
 
-   ## 列表
-   
-   1. 无序列表
-   
-      ```html
-      <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-      </ul>
-      ```
-   
-      > ul只能放li
-   
-   2. 有序列表
-   
-      ```html
-      <ol>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-      </ol>
-      ```
-   
-      > 自动添加数字序号，ol只能包li
-   
-   3. 定义列表
-   
-      ```html
-      <dl>
-          <dt>服务中心</dt>
-          <dd>申请售后</dd>
-          <dd>售后政策</dd>
-      </dl>
-      ```
-   
-      > dl只能包含dt和dd，dt和dd可以包含任何内容
-      >
-      > dl嵌套dt和dd，dl是定义列表
+
       >
       > dt是定义列表的标题，dd是定义列表的描述/详情。
    
-   ## 案例
-   
-   ![](./HTML/img/列表案例.png)
-   
+ ## 列表
+
+1. 无序列表
+
+   ```html
+   <ul>
+       <li>1</li>
+       <li>2</li>
+       <li>3</li>
+   </ul>
+   ```
+
+   > ul只能放li
+
+2. 有序列表
+
+   ```html
+   <ol>
+       <li>1</li>
+       <li>2</li>
+       <li>3</li>
+   </ol>
+   ```
+
+   > 自动添加数字序号，ol只能包li
+
+3. 定义列表
+
+   ```html
+   <dl>
+       <dt>服务中心</dt>
+       <dd>申请售后</dd>
+       <dd>售后政策</dd>
+   </dl>
+   ```
+
+   > dl只能包含dt和dd，dt和dd可以包含任何内容
+   >
+   > dl嵌套dt和dd，dl是定义列表
+   >
+   > dt是定义列表的标题，dd是定义列表的描述/详情。
+
+## 案例
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>认识旗帜</title>
+</head>
+<body>
+        <ul>
+            <li> <img src="./img/roc.webp" title="这是以前的中华民国" width="50"> <br> <h3>中华民国</h3></li>
+            
+        </ul>
+        <ul>
+            <li> <img src="./img/prc.webp" title="这是现在的新中国" width="50"> <br> <h3>中华人民共和国</h3></li>
+            
+        </ul>
+        <ul>
+            <li> <img src="./img/jp.webp" title="这是小日本" width="50"> <br> <h3>日本国</h3></li>
+            
+        </ul>
+</body>
+</html>
+```
+
+![案例](./HTML/img/列表案例1.png "案例")
