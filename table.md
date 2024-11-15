@@ -60,4 +60,4 @@ colspan属性设定单元宽度(最左优先)
 </table>
 ```
 #### 效果
-![alt text](/HTML/img/table_2.png)
+![alt text](./HTML/img/table_2.png)
