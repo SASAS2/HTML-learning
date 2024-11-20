@@ -61,8 +61,4 @@
 </body>
 </html>
 ```
-
-希望这些内容对你有帮助！如果你有任何问题或需要进一步的解释，请随时告诉我。
-
-源: 与 Copilot 的对话， 2024/11/20
-(1) github.com. https://github.com/bgoonz/UsefulResourceRepo2.0/tree/077e4c1ea7981abd049f91dd5084f66c968806c6/MY_REPOS%2FProject-Showcase%2Fjsanimate-master%2Fjsanimate-master%2FREADME.md.
+![alt text](image.png)
